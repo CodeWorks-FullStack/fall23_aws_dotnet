@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: your-dockerhub-username/aws_dotnet:latest
+    image: boisecodeworks/aws_dotnet:latest
     env_file:
       - aws_dotnet-env
     ports:
